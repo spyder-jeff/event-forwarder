@@ -51,6 +51,7 @@ the appropriate org, and generate the API key for the service user.
 API keys expire after 1 year; Plan ahead to keep the key updated.
 
 ### Add a filter expression such as the one below to capture relevant data
+The expression below will forward Spydertraces with a score greater than 50, or that relate to a Guardian policy violation.
 
 ```
 expr: |
